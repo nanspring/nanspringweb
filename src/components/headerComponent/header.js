@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <header>
         <div className="logo">
-         Ansheng's Online Home
+         <span className="logo-content">Ansheng </span>
          </div>
          <nav>
             <ul>

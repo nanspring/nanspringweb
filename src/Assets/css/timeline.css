@@ -43,7 +43,7 @@ h2 {
   align-items: center;
   color: white;
   border-radius: 50%;
-  background: #000000;
+  background: rgba(107,142,35,1);
   font-size: 2em;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
   width: 3em;
@@ -54,7 +54,7 @@ h2 {
 
 .rt-backing {
   border-radius: 0.35em;
-  background: #000000;
+  background: rgba(107,142,35,1);
   color: white;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4); }
 
@@ -82,7 +82,7 @@ h2 {
     left: -13.5%;
     right: auto;
     fill: currentcolor;
-    color: #000000;
+    color: rgba(107,142,35,1);
     width: 5%;
     z-index: 100; }
   .rt-event .rt-svg-container {
@@ -97,7 +97,7 @@ h2 {
       right: auto;
       fill: currentcolor;
       width: 5.25%;
-      color: #000000; }
+      color: rgba(107,142,35,1); }
   .rt-event:nth-of-type(2n) {
     float: left;
     clear: left;
@@ -128,7 +128,7 @@ li:nth-child(3) {
 .rt-header-container {
   color: white;
   padding: 0.25em;
-  background-color: #000000;
+  background-color: rgba(107,142,35,1);
   border-radius: 0.35em 0.35em 0 0;
   overflow: hidden; }
 
@@ -156,7 +156,7 @@ li:nth-child(3) {
 
 .rt-btn {
   text-align: center;
-  background-color: #000000;
+  background-color: rgba(107,142,35,1);
   font-size: 1.5em;
   font-weight: bold;
   cursor: pointer;

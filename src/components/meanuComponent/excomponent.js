@@ -3,7 +3,7 @@ import React from 'react'
 
 const Excomp = ({image,url,company,position,timeline,description,tag,place}) => {
   return (<div className="exp-container">
-            <div className="codeblock" style={{float:'left',color:'black',height:'100%',maxWidth:'20%'}}>
+            <div className="codeblock" style={{float:'left',height:'100%',maxWidth:'20%'}}>
               <a href={url}>
               <img src={image}/>
               </a>

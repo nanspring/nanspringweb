@@ -49,8 +49,7 @@ export default class Slider extends Component {
 
         <div class="content-wrap">
 
-          <div className="col" style={{alignItems: 'center', justifyContent: 'center',
-            transition: '0.5s'}}>
+
 
                       {
                         images.map((image,i) => {
@@ -59,6 +58,7 @@ export default class Slider extends Component {
                             return ''
 
                           })}
+          <div className='centered'>———— Hi, I'm Ansheng ————<p style={{fontSize:'20px'}}>An Artistic Coder</p></div>
 
           <LeftArrow
             prevslide={this.goToPrevSlide}
@@ -66,7 +66,7 @@ export default class Slider extends Component {
           <RightArrow
             nextslide={this.goToNextSlide}
           />
-        </div>
+
 
         </div>
 

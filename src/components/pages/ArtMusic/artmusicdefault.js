@@ -3,9 +3,10 @@ import LeftArrow from '../../sliderComponent/leftArrow'
 import RightArrow from '../../sliderComponent/rightArrow'
 import {CSSTransition} from "react-transition-group"
 
-const Data = ['http://s14.sinaimg.cn/middle/509d9caf46cfc4109defd&690',
+const Data = ['https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/54388243_1014047665455979_7246685429896839168_o.jpg?_nc_cat=106&_nc_ht=scontent-ort2-1.xx&oh=1cd2455d7eff6eb8db8e693365fae648&oe=5D077AC4',
+              'http://s14.sinaimg.cn/middle/509d9caf46cfc4109defd&690',
               'http://s2.sinaimg.cn/middle/001twYJFzy7sgIDRaqBe1&690',
-              'http://s6.sinaimg.cn/middle/001twYJFzy7sgIDQjZ365&690']
+              ]
 const Slide = ({image}) => {
   console.log('slide ',image);
   const styles = {

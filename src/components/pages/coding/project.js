@@ -8,7 +8,7 @@ class Project extends Component {
                   'Hand code EM algorithm without any package beside numpy.\nApplied Gaussian mixture models with hidden Markov chain using forward and backward propagation to classify 2D data.\nCalculated maximum likelihood estimation and updated parameters with EM until converged.'
   ]
     return (
-      <div className="content-wrap">
+      <div className="content-wrap" style={{padding:'20px'}}>
       <ProjComp
         title="KLA Laser Failure Survival Analysis and Prediction (Capstone)"
         image="https://media.licdn.com/dms/image/C4D0BAQFlyi5TTkznCw/company-logo_400_400/0?e=1560384000&v=beta&t=lZKRK6AduPzVFNwK5uqvvoGiYGgJr-Uyh_PlU9-WRnY"
@@ -17,7 +17,7 @@ class Project extends Component {
         description={text[0]}
         tag="#Data Science #Python #Scikit-learn #Matlab #Time Series Data Analysis #Data Visualization"
       />
-      <hr/>
+
       <ProjComp
         title="NLP Missing Pet Service"
         image="https://pbs.twimg.com/profile_images/446566229210181632/2IeTff-V_400x400.jpeg"
@@ -25,7 +25,7 @@ class Project extends Component {
         description={text[1]}
         tag="#Data Science #NLP #TRIPS #Python #Scikit-learn #Linux"
       />
-      <hr/>
+
       <ProjComp
         title="Expectation Maximization with Gaussian Model and Hidden Markov Chain"
         image="https://valserb.files.wordpress.com/2011/08/mma.png?w=600&h=582"
@@ -33,7 +33,7 @@ class Project extends Component {
         description={text[2]}
         tag="#Data Science #Machine Learning #Python"
       />
-      <hr/>
+
       </div>
     );
   }

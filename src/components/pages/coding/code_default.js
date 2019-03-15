@@ -4,14 +4,10 @@ import {BrowserRouter as Router,  Switch,Route, Link} from 'react-router-dom';
 class Code extends Component {
 
   render() {
-    var bg = require("../../../Assets/image/paint3.jpg");
     return (
-    <div class="main-sub-wrap" >
+    <div class="content-wrap" style={{padding:'20px'}}>
 
-      <div class="content-wrap" style={ { backgroundImage: `url(`+bg+`)`,backgroundPosition: 'center',
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-              opacity: 0.8,float:'right'} }>
+      <div class="sub-wrap" >
             <div className="left">
             <div className = "left-container">
               <h5 style={{textAlign: 'center'}}> Front End</h5>
@@ -36,11 +32,7 @@ class Code extends Component {
               <div className='left-container bar'> Survival Analysis</div>
               <div className='left-container bar'> Pytorch</div>
             </div>
-            <div className = "left-container">
-              <h5 style={{textAlign: 'center'}}> Version Control</h5>
-              <div className="left-container bar"> git</div>
-              <div className='left-container bar'> SVN</div>
-            </div>
+
             </div>
             <div className ="floatcontainer">
               <div className="avatar">
@@ -59,6 +51,7 @@ class Code extends Component {
               <div className='left-container bar'> Spark</div>
               <div className='left-container bar'> Matlab</div>
               <div className='left-container bar'> C</div>
+              <div className='left-container bar'> PHP</div>
             </div>
             <div className = "left-container">
               <h5 style={{textAlign: 'center'}}> Framework</h5>
@@ -69,6 +62,11 @@ class Code extends Component {
               <h5 style={{textAlign: 'center'}}> Experienced OS</h5>
               <div className='left-container bar'> Linux</div>
               <div className='left-container bar'> MacOS</div>
+            </div>
+            <div className = "left-container">
+              <h5 style={{textAlign: 'center'}}> Version Control</h5>
+              <div className="left-container bar"> git</div>
+              <div className='left-container bar'> SVN</div>
             </div>
             </div>
 

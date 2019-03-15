@@ -76,7 +76,7 @@ class Life extends Component {
   render() {
     require('../../../Assets/css/timeline.css');
     return (
-      <div className='content-wrap'>
+      <div className='content-wrap' style={{padding:'20px'}}>
       <Timeline events={this.state.events} reverseOrder={true} />
       </div>
 

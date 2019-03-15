@@ -8,26 +8,27 @@ class Dance extends Component {
   }
 render() {
     const opts = {
-      height: '450',
+      height: '430',
       width: '68%'
     };
 
     return (
       <div class="content-wrap" >
-        <div>
+        <div className="video-wrap">
           <div className="video-content" >
           <h5>✿ Random Clips from Everyday Life ✿</h5>
           <p>If I want to dance, every corner is my stage.</p>
           <p>I love ballet, Chinese traditional dance and some modern random moves too. LOL</p>
           </div>
+          <div className="youtube-wrap">
             <YouTube
-              videoId="vmFA-CSih_M"
+              videoId="L_uQ6U08d6A"
               opts={opts}
 
             />
+            </div>
         </div>
-        <hr/>
-        <div>
+        <div  className="video-wrap">
           <div className="video-content" >
           <h5>✿ BALLET ✿</h5>
           <p>I danced ballet for 8 years and 5 years on pointe. </p>
@@ -38,11 +39,13 @@ render() {
 
 
           </div>
+          <div className="youtube-wrap">
             <YouTube
               videoId="Bex9Hw61B8I"
               opts={opts}
 
             />
+            </div>
         </div>
 
 

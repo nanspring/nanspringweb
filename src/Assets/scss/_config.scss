@@ -7,6 +7,7 @@ $yellow: #fce473;
 $pink: #ff1493;
 $dustyrose: #FFE4E1;
 $lavendar: #D8BFD8;
+$olive: rgb(107,142,35);
 
 @mixin translateY($e){
   -webkit-transform: translateY($e);
@@ -23,6 +24,7 @@ html {
     height: 100%;
 }
 body{
+
   display:inline-block;
   overflow: auto;
   min-width:100%;
