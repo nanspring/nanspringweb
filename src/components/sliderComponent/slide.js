@@ -10,7 +10,7 @@ const Slide = ({image}) => {
    backgroundSize: 'cover',
    backgroundRepeat: 'no-repeat',
    backgroundPosition: '50% 60%',
-   height: 600,
+   height: '100vh',
    margin: '0 auto',
    zIndex: -1
  }

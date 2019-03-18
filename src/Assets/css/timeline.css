@@ -84,13 +84,13 @@ h2 {
     fill: currentcolor;
     color: rgba(107,142,35,1);
     width: 5%;
-    z-index: 100; }
+    }
   .rt-event .rt-svg-container {
     position: relative; }
     .rt-event .rt-svg-container svg {
       transform: scale(-1, 1); }
     .rt-event .rt-svg-container .rt-arrow {
-      z-index: 100;
+    
       position: absolute;
       margin-top: 20px;
       left: -5%;

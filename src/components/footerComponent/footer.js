@@ -17,7 +17,8 @@ class Footer extends Component {
         </a>
       </div>
       <div>
-      This website is created with react.js, javascript, CSS/HTML.
+      This website is created with react.js, javascript, CSS/HTML. Frontend is deployed on Netlify. Backend is deployed on Heroku.
+      This web project is independently designed and created by Ansheng Xu
      </div>
       </footer>
     );

@@ -12,7 +12,7 @@ class Secret extends Component {
   render() {
     return(
       <div class="main-wrap">
-          <div class="content-wrap" style={{textAlign:'center',padding:'20px',height:'520px'}}>
+          <div class="content-wrap" style={{textAlign:'center',padding:'20px',height:'100vh'}}>
 
               <Mail/>
 

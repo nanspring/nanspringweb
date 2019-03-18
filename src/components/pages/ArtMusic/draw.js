@@ -95,7 +95,7 @@ render() {
     ];
 
     return (
-      <div class="content-wrap" style={{padding:'40px'}}>
+      <div class="content-wrap" style={{padding:'40px',height:'auto'}}>
         <Gallery photos={photos} direction={"column"} onClick={this.openLightbox}/>
         <Lightbox images={photos}
           onClose={this.closeLightbox}

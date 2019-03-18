@@ -11,7 +11,7 @@ class WhoAmI extends Component {
     return (
     <div class="content-wrap" style={ { backgroundImage: `url(`+bg+`)`,backgroundPosition: 'center',
             backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',height:'520px',float:'right' } }>
+            backgroundRepeat: 'no-repeat',height:'100vh',float:'right' } }>
       <div class="content-message">
     Interested in Software Developer and Data Scientist.
     Graduating from University of Rochester in 2019, I will receive my B.S. in data science.

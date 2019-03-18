@@ -5,7 +5,7 @@ class Code extends Component {
 
   render() {
     return (
-    <div class="content-wrap" style={{padding:'20px'}}>
+    <div class="content-wrap" style={{padding:'20px',height:'auto'}}>
 
       <div class="sub-wrap" >
             <div className="left">
