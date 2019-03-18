@@ -23,7 +23,7 @@ class Mail extends Component {
     e.preventDefault()
     const {name,email,message}=this.state
     console.log(this.state)
-    axios.defaults.baseURL='http://localhost:3001'
+    axios.defaults.baseURL='https://calm-meadow-93396.herokuapp.com'
     const form = await axios.post('/api/form',{
       name,
       email,
