@@ -23,7 +23,7 @@ class Mail extends Component {
     e.preventDefault()
     const {name,email,message}=this.state
     console.log(this.state)
-    axios.defaults.baseURL="https://www.xunanspring.com:3001"
+    axios.defaults.baseURL='http://localhost:3001'
     const form = await axios.post('/api/form',{
       name,
       email,
