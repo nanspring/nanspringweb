@@ -19,6 +19,8 @@ render() {
           <h5>✿ Random Clips from Everyday Life ✿</h5>
           <p>If I want to dance, every corner is my stage.</p>
           <p>I love ballet, Chinese traditional dance and some modern random moves too. LOL</p>
+          <p>✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿</p><p> 此页面有youtube油管视频 国内请挂VPN观看 </p><p>✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿</p>
+
           </div>
           <div className="youtube-wrap">
             <YouTube

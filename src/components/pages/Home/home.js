@@ -3,6 +3,7 @@ import Sidebar from '../../meanuComponent/sidebar'
 import Slider from '../../sliderComponent/slider'
 import WhoAmI from './who-am-i'
 import Life from './life'
+import Resume from './resume'
 import {BrowserRouter as Router,  Switch,Route, Link} from 'react-router-dom';
 class Homepage extends Component {
   constructor(props){
@@ -17,7 +18,9 @@ class Homepage extends Component {
 
       <Route path={'/home/who'} component={WhoAmI} />
       <Route path={'/home/life'} component={Life} />
+      <Route path={'/home/resume'} component={Resume} />
       <Route exact path={'/home'} component={Slider} />
+
 
 
 

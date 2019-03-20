@@ -20,9 +20,9 @@ render() {
           <p>I have been learning piano since I was five and am still practicing it now. It is the best way to help with my anxiety </p>
           <p>I love Romatic music the most. Not so much a fan of baroque or classical music.</p>
           <p>Tchaikovsky is my most favortie composer. </p>
-          <p>My music history research paper was about the last symphony of his work. </p>
-         <p>2 years ago, I went to NYC to enjoy the actual concert and was deeply shocked. </p>
+
          <p>Love Tchaikovsky the most.</p>
+         <p>✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿</p><p> 此页面有youtube油管视频 国内请挂VPN观看 </p><p>✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿</p>
 
           </div>
             <div className="youtube-wrap">
@@ -74,6 +74,7 @@ render() {
           <p>I used to do piano accompany in Missouri. The violin professor was kind enough to offer me a lesson. </p>
            <p>This is a piece from my most favorite modern composer Joe Hisaishi. Piano credit to Nelson</p>
            <p>✿✿✿ I am a youtuber too! Click <a href="https://www.youtube.com/channel/UC2fCSRrtLXQaSPRxhyAUrWg?view_as=subscriber">here</a> to see my most recent video! ✿✿✿</p>
+
           </div>
           <div className="youtube-wrap">
             <YouTube
