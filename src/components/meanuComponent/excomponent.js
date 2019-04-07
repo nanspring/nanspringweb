@@ -9,13 +9,13 @@ const Excomp = ({image,url,company,position,timeline,description,tag,place}) => 
               </a>
               <div style={{bottom:0}}>{company}</div>
             </div>
-            <div style={{float:'right',width:'80%'}}>
+            <div style={{float:'right',width:'80%',fontSize:'15px'}}>
               <div>
                 <p style={{marginBottom:'0'}}><span style={{fontSize:'1.5em'}}>{position}</span><span style={{float:'right'}}>{place}</span></p>
                 <div style={{textAlign:'right', width:'100%'}}>{timeline}</div>
               </div>
               <div > {description.split("\n").map((i,key) => {
-              return <div key={key}>☻ {i}</div>;
+              return <div key={key}>• {i}</div>;
               })}</div>
               <div>✿ {tag}</div>
             </div>

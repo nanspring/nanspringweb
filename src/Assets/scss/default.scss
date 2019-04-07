@@ -20,6 +20,7 @@ header{
 
 		nav {
 			z-index: 9;
+			color: $white;
 			position: absolute;
 			float: left;
 				height: 80px;
@@ -38,11 +39,12 @@ header{
 footer{
 	background-color: $black;
 	color: $white;
-	padding:15px;
+	padding:10px;
 	z-index: 1;
 	position:absolute;
 	width:100%;
 	height: 120px;
+	font-size: 15px;
 	margin-bottom: 0px;
 	.link{
 		width:30px;
@@ -51,8 +53,11 @@ footer{
 	}
 
 }
+h4{
+	color: $Grey;
+}
 h5{
-	color: $white;
+	color: $Grey;
 	text-align: center;
 }
 p{
@@ -230,8 +235,8 @@ align-items: center; /* align vertical */
 
 .floatcontainer {
 	margin-top: 20px;
-	width: 40%;
-	float: left;
+	width: 100%;
+	display: inline-block;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -265,27 +270,28 @@ align-items: center; /* align vertical */
 }
 
 .left,.right{
-	width:30%;
+	width:50%;
 	float: left;
 	padding: 10px;
+	display: block;
+	background-color: $white;
 }
 .right{
 	float:right;
 }
 .left-container{
 	margin: 10px;
-	background: rgba(107,142,35,0.8);
+	background: $white;
 	float: left;
 	width: 100%;
 	padding: 10px;
 	.bar{
 				margin: 0;
 				font-size: 15px;
-				display: inline-block;
 				opacity: 1;
 				width: 50%;
-				color: $white;
-				text-align: center;
+				color: $Grey;
+
 	}
 
 	}
@@ -295,7 +301,7 @@ align-items: center; /* align vertical */
 		box-sizing: border-box;
 		overflow: hidden;
 		display: inline-block;
-		color: $white;
+		color: $Grey;
 		width: 200px;
 		height: 200px;
 		float: right;
@@ -304,8 +310,8 @@ align-items: center; /* align vertical */
 		img {min-height: 90px;width:80%;height: 70%;}
 	}
 	.code-container,.exp-container{
-		background-color: $olive;
-		color: $white;
+		background-color: $white;
+		color: $Grey;
 		position: relative;
 		display: inline-block;
 		padding: 10px;
@@ -314,8 +320,8 @@ align-items: center; /* align vertical */
 
 	}
 	.exp-container{
-		background-color: rgba(107,142,35,1);
-		color: $white;
+		background-color: $white;
+		color: $Grey;
 		padding:20px;
 	}
 
@@ -333,8 +339,8 @@ align-items: center; /* align vertical */
 	height: 430px;
 	margin:10px;
 	float:left;
-	color:$white;
-	background-color: rgb(107,142,35);
+	color:$darkGrey;
+	background-color: $white;
 	padding: 10px;
 }
 .video-wrap{
@@ -358,9 +364,9 @@ align-items: center; /* align vertical */
 
 .mail-wrap{
 	display: inline-block;
-	color: $white;
+	color: $Grey;
 	padding: 15px;
-	background-color:rgba(107,142,35,0.6);
+	background-color:$white;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
 	animation-duration: 3s;
   animation-name: slidein;

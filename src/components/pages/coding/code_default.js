@@ -7,68 +7,69 @@ class Code extends Component {
     return (
     <div class="content-wrap" style={{padding:'20px',height:'auto'}}>
 
-      <div class="sub-wrap" >
-            <div className="left">
-            <div className = "left-container">
-              <h5 style={{textAlign: 'center'}}> Front End</h5>
-              <div className='left-container bar'> JavaScript</div>
-              <div className='left-container bar'> jQuery</div>
-              <div className='left-container bar'> HTML/CSS</div>
-              <div className='left-container bar'> Ajax</div>
-              <div className='left-container bar'> Sass</div>
-              <div className='left-container bar'> React.js</div>
-              <div className='left-container bar'> Node.js</div>
-            </div>
-            <div className = "left-container">
-              <h5 style={{textAlign: 'center'}}> Data Science</h5>
-              <div className="left-container bar"> Machine Learning</div>
-              <div className='left-container bar'> NLP</div>
-              <div className='left-container bar'> Visualization</div>
-              <div className='left-container bar'> Time Series</div>
-              <div className='left-container bar'> ETL</div>
-              <div className='left-container bar'> Scikit-Learn</div>
-              <div className='left-container bar'> Pytorch</div>
-              <div className='left-container bar'> Feature Select</div>
-              <div className='left-container bar'> Survival Analysis</div>
-              <div className='left-container bar'> Pytorch</div>
-            </div>
-
-            </div>
-            <div className ="floatcontainer">
-              <div className="avatar">
-                <a href = "https://github.com/nanspring">
-                <img src = "https://avatars1.githubusercontent.com/u/9919?s=200&v=4"/>
-                </a>
+      <div class="sub-wrap">
+      <div className ="floatcontainer">
+        <div className="avatar">
+          <a href = "https://github.com/nanspring">
+          <img src = "https://avatars1.githubusercontent.com/u/9919?s=200&v=4"/>
+          </a>
+        </div>
+          </div>
+            <div style={{backgroundColor:'white',overflow:'auto',marginBottom:'15px'}} >
+              <div className="left">
+              <div className = "left-container">
+                <h4> Front End</h4>
+                <li className='left-container bar'> JavaScript</li>
+                <li className='left-container bar'> jQuery</li>
+                <li className='left-container bar'> HTML/CSS</li>
+                <li className='left-container bar'> Ajax</li>
+                <li className='left-container bar'> Sass</li>
+                <li className='left-container bar'> React.js</li>
+                <li className='left-container bar'> Node.js</li>
               </div>
-            </div>
-            <div className="right">
-            <div className = "left-container">
-              <h5 style={{textAlign: 'center'}}> Back End & Other Languages</h5>
-              <div className='left-container bar'> Java</div>
-              <div className='left-container bar'> Python</div>
-              <div className='left-container bar'> SQL</div>
-              <div className='left-container bar'> R</div>
-              <div className='left-container bar'> Spark</div>
-              <div className='left-container bar'> Matlab</div>
-              <div className='left-container bar'> C</div>
-              <div className='left-container bar'> PHP</div>
-            </div>
-            <div className = "left-container">
-              <h5 style={{textAlign: 'center'}}> Framework</h5>
-              <div className='left-container bar'> Spring MVC</div>
-              <div className='left-container bar'> Mybatis</div>
-            </div>
-            <div className = "left-container">
-              <h5 style={{textAlign: 'center'}}> Experienced OS</h5>
-              <div className='left-container bar'> Linux</div>
-              <div className='left-container bar'> MacOS</div>
-            </div>
-            <div className = "left-container">
-              <h5 style={{textAlign: 'center'}}> Version Control</h5>
-              <div className="left-container bar"> git</div>
-              <div className='left-container bar'> SVN</div>
-            </div>
-            </div>
+              <div className = "left-container">
+                <h4> Data Science</h4>
+                <li className="left-container bar"> Machine Learning</li>
+                <li className='left-container bar'> NLP</li>
+                <li className='left-container bar'> Visualization</li>
+                <li className='left-container bar'> Time Series</li>
+                <li className='left-container bar'> ETL</li>
+                <li className='left-container bar'> Scikit-Learn</li>
+                <li className='left-container bar'> Pytorch</li>
+                <li className='left-container bar'> Feature Select</li>
+                <li className='left-container bar'> Survival Analysis</li>
+                <li className='left-container bar'> Pytorch</li>
+              </div>
+              </div>
+              <div className="right">
+              <div className = "left-container">
+                <h4> Back End & Other Languages</h4>
+                <li className='left-container bar'> Java</li>
+                <li className='left-container bar'> Python</li>
+                <li className='left-container bar'> SQL</li>
+                <li className='left-container bar'> R</li>
+                <li className='left-container bar'> Spark</li>
+                <li className='left-container bar'> Matlab</li>
+                <li className='left-container bar'> C</li>
+                <li className='left-container bar'> PHP</li>
+              </div>
+              <div className = "left-container">
+                <h4> Framework</h4>
+                <li className='left-container bar'> Spring MVC</li>
+                <li className='left-container bar'> Mybatis</li>
+              </div>
+              <div className = "left-container">
+                <h4 > Experienced OS</h4>
+                <li className='left-container bar'> Linux</li>
+                <li className='left-container bar'> MacOS</li>
+              </div>
+              <div className = "left-container">
+                <h4> Version Control</h4>
+                <li className="left-container bar"> git</li>
+                <li className='left-container bar'> SVN</li>
+              </div>
+              </div>
+          </div>
 
       </div>
 

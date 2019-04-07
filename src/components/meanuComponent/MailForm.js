@@ -9,7 +9,8 @@ class Mail extends Component {
       this.state = {
       name:'',
       email: '',
-      message: ''
+      message: '',
+      msg:''
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -21,7 +22,7 @@ class Mail extends Component {
 
   async handleSubmit(e){
     e.preventDefault()
-    const {name,email,message}=this.state
+    const {name,email,message,msg}=this.state
     console.log(this.state)
     axios.defaults.baseURL='https://calm-meadow-93396.herokuapp.com'
     const form = await axios.post('/api/form',{
@@ -29,13 +30,26 @@ class Mail extends Component {
       email,
       message
     })
+    .then(response=>{
+      this.setState({msg:response.data})
+      this.setState({
+        name:'',
+        email: '',
+        message: ''
+      })
+  })
+    .catch( error => {
+        console.log(error);
+    });
+  
   }
+
 
   render() {
 
     return(
       <div class = "mail-wrap">
-      <h4 style={{backgroundColor:'rgb(107,142,35)'}}>Contact Me</h4>
+      <h4 style={{backgroundColor:'white'}}>Contact Me</h4>
       <Form onSubmit={this.handleSubmit} style={{width:'600px'}}>
         <FormGroup>
           <Label for="name">Name:</Label>
@@ -62,8 +76,11 @@ class Mail extends Component {
             onChange={this.handleChange} />
         </FormGroup>
 
-        <Button style={{backgroundColor:'rgb(107,142,35)'}}>Submit</Button>
+        <Button >Submit</Button>
       </Form>
+      <div class="contact">
+      {this.state.msg}
+      </div>
       </div>
     );
   }

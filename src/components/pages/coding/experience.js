@@ -5,7 +5,7 @@ class Experience extends Component {
 
   render() {
     const text=['SJW Airport Project (headyonder.com): Internal Airport Data Manipulation Web  \n  Built customer service, coupon, blacklist jsp web pages by using MVC framework and cloud data storage with SVN.\nAchieved functions, such as add, delete, edit, import and export in each web page. Allowed updates between relational database.\nWeb scripted ctrip.com, expedia.com, etc to provide aviation data for customers.',
-  "Helped to reduced loss in revenue by cutting the lowest 5% customer and resulting in an 8% of overdue. Built a credit score toolkit by using logistic regression. \n •	Implemented data cleaning, feature selection. Drew ROC graph, KS. Calculated Gini coefficient, information entropy, weight of evidence to evaluate the feasibility of the model. \n Ran data on multiple models, such as random forest, GDBT, SVM and NN to evaluate the logistic regression model.",
+  "Helped to reduced loss in revenue by cutting the lowest 5% customer and resulting in an 8% of overdue. Built a credit score toolkit by using logistic regression. \n Implemented data cleaning, feature selection. Drew ROC graph, KS. Calculated Gini coefficient, information entropy, weight of evidence to evaluate the feasibility of the model. \n Ran data on multiple models, such as random forest, GDBT, SVM and NN to evaluate the logistic regression model.",
   "Currently working on this internship. More detail is coming soon."]
     return (
       <div className="content-wrap" style={{padding:'20px',height:'auto'}}>
