@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
 
-const API_PATH = 'http://localhost:8080';
+const LoadingSpinner = () => (
+      <div>
+        <i className="fa fa-spinner fa-spin" /> Sending...
+      </div>
+    );
 class Mail extends Component {
   constructor(){
     super();
@@ -10,7 +14,8 @@ class Mail extends Component {
       name:'',
       email: '',
       message: '',
-      msg:''
+      msg:'',
+      loading:false
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -22,8 +27,8 @@ class Mail extends Component {
 
   async handleSubmit(e){
     e.preventDefault()
+    this.setState({loading:true})
     const {name,email,message,msg}=this.state
-    console.log(this.state)
     axios.defaults.baseURL='https://calm-meadow-93396.herokuapp.com'
     const form = await axios.post('/api/form',{
       name,
@@ -31,7 +36,8 @@ class Mail extends Component {
       message
     })
     .then(response=>{
-      this.setState({msg:response.data})
+      this.setState({msg:response.data,loading:false})
+      alert("Succeeded! Thanks for reaching out!")
       this.setState({
         name:'',
         email: '',
@@ -40,13 +46,14 @@ class Mail extends Component {
   })
     .catch( error => {
         console.log(error);
+        alert("Sending Fail. Please try again.")
     });
-  
+
   }
 
 
   render() {
-
+    const {n,e,m,ms,loading} = this.state;
     return(
       <div class = "mail-wrap">
       <h4 style={{backgroundColor:'white'}}>Contact Me</h4>
@@ -78,6 +85,7 @@ class Mail extends Component {
 
         <Button >Submit</Button>
       </Form>
+      {loading ? <LoadingSpinner /> : ""}
       <div class="contact">
       {this.state.msg}
       </div>

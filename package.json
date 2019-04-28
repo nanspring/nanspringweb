@@ -18,8 +18,10 @@
     "react-images": "^0.5.19",
     "react-pdf": "^4.0.5",
     "react-photo-gallery": "^6.3.2",
+    "react-redux-loading-bar": "^4.2.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.8",
+    "react-spinners": "^0.5.4",
     "react-transition-group": "^2.6.0",
     "react-youtube": "^7.9.0",
     "reactstrap": "^7.1.0"

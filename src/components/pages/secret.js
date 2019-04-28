@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Mail from '../meanuComponent/MailForm'
 
+
 class Secret extends Component {
   constructor(props){
 
@@ -13,7 +14,6 @@ class Secret extends Component {
     return(
       <div class="main-wrap">
           <div class="content-wrap" style={{textAlign:'center',padding:'20px',height:'100vh'}}>
-
               <Mail/>
 
           </div>

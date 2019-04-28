@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <header>
         <div className="logo">
-         <span className="logo-content">Ansheng </span>
+         <span className="logo"><img src={require("../../Assets/image/headlogo.png")}/></span>
          </div>
          <nav>
             <ul>
