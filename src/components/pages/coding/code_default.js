@@ -74,13 +74,13 @@ class Code extends Component {
       </div>
 
       <div className="code-container">
-        <div className="codeblock" style={{float:'left'}}><h3 style={{fontWeight:'bold',textAlign:'center'}}> Work Experiences</h3><Link to="/coding/work" style={{bottom:'5px'}}>Learn More ...</Link></div>
+        <div className="codeblock" style={{float:'left'}}><h3 style={{fontWeight:'bold',textAlign:'center'}}> Work Experiences</h3><Link to="/coding/work" style={{bottom:'5px', color:'grey'}}>Learn More ...</Link></div>
         <Floatcode image="http://www.headyonder.com/images/pic-logo.png" url="http://www.headyonder.com/" position="Software Engineer Intern"/>
         <Floatcode image="https://is5-ssl.mzstatic.com/image/thumb/Purple62/v4/ad/ab/2a/adab2a6b-daae-4e13-2c3c-8609fc0a6513/source/60x60bb.jpg" url="http://www.naxinjituan.com/" position="Credit Score Modeling Intern"/>
-        <Floatcode image="https://media.licdn.com/dms/image/C510BAQFk0-jaGkwBGw/company-logo_400_400/0?e=1560384000&v=beta&t=E3Jo_3jMoDVGs-d-eHBvpkNQxsesTGbg6TzHhGDG0Yw" url="https://www.cityofrochester.gov" position="Marketing Analyst Intern"/>
+        <Floatcode image="https://www.cityofrochester.gov/assets/0/117/8589934986/c6791498-270e-40b1-9b81-aca8a510c1b5.jpg?n=8012" url="https://www.cityofrochester.gov" position="Marketing Analyst Intern"/>
       </div>
       <div className="code-container">
-        <div className="codeblock" style={{float:'left'}}><h3 style={{fontWeight:'bold',textAlign:'center'}}> Projects</h3><p style={{color:'blue'}}> <Link to="/coding/project">Learn More ...</Link></p></div>
+        <div className="codeblock" style={{float:'left'}}><h3 style={{fontWeight:'bold',textAlign:'center'}}> Projects</h3> <Link to="/coding/project" style={{bottom:'5px', color:'grey'}}>Learn More ...</Link></div>
 
         <Floatcode image="https://vertassets.blob.core.windows.net/image/132e4a81/132e4a81-2301-4efd-99a2-48a7f96d0325/ai_artificial_intelligence_istock_832169838.png" position="AI"/>
         <Floatcode image="https://cdn.appenresources.com/wp-content/uploads/2018/03/Recent-Developments-in-Neural-Networks.png"  position="Machine Learning and Data"/>

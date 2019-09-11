@@ -22,7 +22,7 @@ render() {
           <p>Tchaikovsky is my most favortie composer. </p>
 
          <p>Love Tchaikovsky the most.</p>
-         <p>✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿</p><p> 此页面有youtube油管视频 国内请挂VPN观看 </p><p>✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿</p>
+
 
           </div>
             <div className="youtube-wrap">

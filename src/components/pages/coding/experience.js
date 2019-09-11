@@ -6,14 +6,14 @@ class Experience extends Component {
   render() {
     const text=['SJW Airport Project (headyonder.com): Internal Airport Data Manipulation Web  \n  Built customer service, coupon, blacklist jsp web pages by using MVC framework and cloud data storage with SVN.\nAchieved functions, such as add, delete, edit, import and export in each web page. Allowed updates between relational database.\nWeb scripted ctrip.com, expedia.com, etc to provide aviation data for customers.',
   "Helped to reduced loss in revenue by cutting the lowest 5% customer and resulting in an 8% of overdue. Built a credit score toolkit by using logistic regression. \n Implemented data cleaning, feature selection. Drew ROC graph, KS. Calculated Gini coefficient, information entropy, weight of evidence to evaluate the feasibility of the model. \n Ran data on multiple models, such as random forest, GDBT, SVM and NN to evaluate the logistic regression model.",
-  "Currently working on this internship. More detail is coming soon."]
+  "Strategic Innovation Project. Helped local Rochester government to promote local business and locate future business opportunities by using machine learning and big data."]
     return (
       <div className="content-wrap" style={{padding:'20px',height:'auto'}}>
       <Excomp
-        image="https://media.licdn.com/dms/image/C510BAQFk0-jaGkwBGw/company-logo_400_400/0?e=1560384000&v=beta&t=E3Jo_3jMoDVGs-d-eHBvpkNQxsesTGbg6TzHhGDG0Yw"
+        image="https://www.cityofrochester.gov/assets/0/117/8589934986/c6791498-270e-40b1-9b81-aca8a510c1b5.jpg?n=8012"
         company="City of Rochester"
         url="https://www.cityofrochester.gov"
-        position="Marketing Analyst Intern"
+        position="Data Science Intern"
         place="Rochester, NY"
         timeline="03/2019 - 05/2019"
         description={text[2]}

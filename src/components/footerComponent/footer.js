@@ -7,7 +7,7 @@ class Footer extends Component {
 
       <div>
         <a href="http://www.facebook.com/ansheng.xu.7">
-        <img className="link" src="http://www.everysecond.io/assets/Facebook/Facebook.svg"/>
+        <img className="link" src="https://avatars3.githubusercontent.com/u/69631?s=280&v=4"/>
         </a>
         <a href="https://www.linkedin.com/in/ansheng-xu-3b4322119/">
         <img className="link" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png"/>
@@ -17,7 +17,7 @@ class Footer extends Component {
         </a>
       </div>
       <div>
-      This website is created with react.js,Node.js, javascript, CSS/HTML. 
+      This website is created with react.js,Node.js, javascript, CSS/HTML.
       This web project is independently designed and created by Ansheng Xu
      </div>
      <div>
