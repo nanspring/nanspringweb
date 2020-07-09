@@ -37,7 +37,7 @@ class Experience extends Component {
         url="http://www.headyonder.com/"
         position="Software Engineer Intern"
         place="Chengdu, China"
-        timeline="05/2018 - 06/2018"
+        timeline="05/2018 - 07/2018"
         description={text[0]}
         tag="#Web #MySQL #Full Stack Web development in Java #Spring-MVC framework #MyBatis #AJAX #jQuery #JavaScript #HTML #SVN version control #CSS and debugged using Chrome Developer Tools."
         />

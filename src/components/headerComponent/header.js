@@ -34,7 +34,7 @@ class Header extends Component {
                 </div>
               </div>
               <div className="header">
-              <Link to="/secret">Secret</Link>
+              <Link to="/secret">Contact</Link>
               </div>
             </ul>
           </nav>
